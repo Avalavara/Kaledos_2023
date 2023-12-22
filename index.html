@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kalėdinis Sveikinimas</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalnia&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <h1 id="h1">Sveikinu su Šv. Kalėdomis</h1>
+  <p id="p">Lorem ipsum dolor sit amet,<br>
+     consectetur adipisicing elit.<br> 
+     Quidem facilis beatae molestias<br>
+     eveniet debitis eaque dolorem<br>
+     nesciunt repellat. Deleniti culpa<br>
+     vero mollitia, minus quibusdam<br>
+     dolores repudiandae reiciendis<br>
+     quis impedit, distinctio.</p>
+    
+    <button onclick="fonas();">SPAUSKITE</button>
+    
+    <script>
+    
+    
+    function fonas(){
+        document.body.style.backgroundImage = 'url(tituline.jpg)'
+    
+    document.getElementById('h1').style.fontFamily = 'Kalnia';
+    document.getElementById('p').style.fontFamily = 'verdana';
+    
+    document.getElementById('h1').style.color = 'green';
+        
+    document.getElementById('p').style.color = 'red';
+        
+     document.getElementById('h1').style.fontSize = '30px';
+    
+    };
+    Math.round(Math.random()*10)
+    </script>
+</body>
+</html>
